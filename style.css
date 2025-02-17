@@ -26,7 +26,6 @@
 .items {
     font-family: Roboto;
     border-right: 1px solid rgb(189, 187, 187);
-    line-height: 30px;
     padding: 20px;
     color: #343434;
     font-size: 0.9rem;
@@ -48,16 +47,23 @@
     display: flex;
 }
 
-.search {
+.Search {
     align-self: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 30px;
     border: 1px solid #acaaaa;
-    width: 150px;
+    height: 30px;
+    width: 170px;
     font-size: 1rem;
-    padding-left: 6px;
-    margin-left: 12px
+    padding: 3px;
+    margin-left: 10px;
 }
+
+ .search-2{
+    width: 15px;
+    height: 15px;
+    margin-top: 30px;
+    margin-left: -18px;
+ }
 
 .icon {
     margin: 7px 120px;
@@ -92,11 +98,9 @@
 .head-2 {
     color: #71277a;
     background-color: #f5f3f3;
-    padding: 1px;
     font-family: Roboto;
     font-size: 0.8rem;
     text-align: center;
-    padding-top: 15px;
     word-spacing: 2px;
 }
 
@@ -135,9 +139,8 @@
 .card-image:hover{
     opacity: 100;
     cursor: pointer;
-    width: 265px;
-    height: 220px;
-    transition: 1000ms
+    transition: 1000ms;
+    zoom: 1%;
 }
 
 /* @Font-Family started */
@@ -152,32 +155,21 @@
 
 /* Media Query started */
 @media (max-width:1024px) {
-    .parent {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-
-    }
-
-    .child-1 {
-        display: flex;
-    }
-
-    .items {
-        font-size: 1rem;
-        padding: 10px;
-    }
 
     .search {
         gap: 40px;
     }
 
     .logo {
-        width: 200px
+        width: 200px;
     }
 
     .button {
         font-size: 0.8rem;
+    }
+
+    .search-2{
+        margin-bottom: 30px;
     }
 
 }
