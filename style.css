@@ -457,6 +457,11 @@
     }
 
     @media (max-width:640px) {
+        
+        .child-1{
+            display: none;
+        }
+
         .items {
             display: none;
         }
@@ -569,4 +574,130 @@
         }
     }
 
-    /* Media Query ended */
+    /* Media Query for 640px max width */
+    @media (max-width: 640px) {
+        .search {
+            gap: 10px;
+        }
+
+        .logo {
+            width: 150px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .button {
+            font-size: 0.7rem;
+            height: 40px;
+            padding: 0 10px;
+        }
+
+        .search-2 {
+            margin-bottom: 10px;
+        }
+
+        .section-2 {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            height: auto;
+            min-height: 400px;
+        }
+
+        .container-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .parent-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .child-2-1 {
+            margin-bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .sec-2-img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .sec-2-span {
+            white-space: nowrap;
+        }
+
+        .card-image {
+            width: 60px;
+            height: 60px;
+        }
+
+        .card-head {
+            font-size: 0.8rem;
+            text-align: center;
+        }
+
+        .card-para {
+            font-size: 0.6rem;
+            width: 120px;
+            text-align: center;
+        }
+
+        .btn {
+            font-size: 0.6rem;
+        }
+
+        .sec-4 .parent-4 {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .sec-4 .child-4-1 {
+            margin-bottom: 10px;
+        }
+
+        .sec-5 {
+            display: block;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .sec-5 .parent-5 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sec-5 .child-5-1,
+        .sec-5 .child-5-2 {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .navbar .nav-item {
+            margin: 5px 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .navbar .nav-link {
+            font-size: 0.7rem;
+            padding: 10px;
+        }
+    }
