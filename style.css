@@ -553,7 +553,6 @@
             gap: 20px;
         }
 
-        /* Navbar styles for 640px max width */
         .navbar {
             display: flex;
             flex-direction: column;
@@ -572,10 +571,7 @@
             font-size: 0.8rem;
             padding: 10px;
         }
-    }
-
-    /* Media Query for 640px max width */
-    @media (max-width: 640px) {
+    
         .search {
             gap: 10px;
         }
@@ -683,6 +679,8 @@
         }
 
         .navbar {
+            position: relative;
+            z-index: 10;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -697,7 +695,22 @@
         }
 
         .navbar .nav-link {
-            font-size: 0.7rem;
+            font-size: 0.8rem;
             padding: 10px;
         }
-    }
+
+        .navbar .logo {
+            width: 150px;
+            height: auto;
+            margin: 0 auto 10px;
+        }
+
+        .navbar .button {
+            font-size: 0.7rem;
+            height: 40px;
+            padding: 0 10px;
+            margin: 10px 0;
+        }
+
+}
+    
