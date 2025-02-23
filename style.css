@@ -278,439 +278,501 @@
     font-size: 1.4rem;
 }
 
+.sec-6{
+    background-color: #f5f3f3;
+}
 
-    /* @Font-Family started */
+.footer-parent-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f3f3; 
+    width: 100%; 
+    padding: 20px 0; 
+}
 
-    @font-face {
-        font-family: Roboto;
-        src: url(./assets/fonts/static/Roboto-Regular.ttf);
+.footer-head{
+    font-size: 0.9rem;
+    color: #000000; 
+}
+
+.footer-para{
+    font-size: 0.8rem;
+    padding-top: 10px;
+    font-family: Roboto;
+    padding-bottom: 30px;
+    color: #000000; 
+    line-height: 2;
+}
+
+.footer-btn{
+    border: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.footer-span{
+    text-decoration: underline;
+}
+
+.footer-span:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.end-head{
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 1rem;
+}
+
+.copyright-para{
+    display: flex;
+    background-color: #e6e6e6;
+    font-size: 0.7rem;
+    padding-left: 13px;
+    margin-top: 30px;
+    margin-bottom: 0; 
+} 
+
+.copyright-end{
+    display: inline-block;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
+
+/* @Font-Family started */
+
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/static/Roboto-Regular.ttf);
+}
+
+/* @Font-Family ended */
+
+/* Media Query started */
+@media (max-width:1024px) {
+
+    .search {
+        gap: 40px;
     }
 
-    /* @Font-Family ended */
-
-    /* Media Query started */
-    @media (max-width:1024px) {
-
-        .search {
-            gap: 40px;
-        }
-
-        .logo {
-            width: 200px;
-        }
-
-        .button {
-            font-size: 0.8rem;
-        }
-
-        .search-2 {
-            margin-bottom: 30px;
-        }
-
-        .section-2 {
-            padding: 20px;
-            text-align: center;
-        }
-
-        .container-2 {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-        .parent-2 {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-        .child-2-1 {
-            margin-bottom: 20px;
-            flex: 1;
-            max-width: 45%;
-        }
-
-        .sec-2-img {
-            width: 100%;
-            height: auto;
-        }
-
-        .sec-2-span {
-            white-space: nowrap;
-        }
-
-        .card-image {
-            width: 120px;
-            height: 120px;
-        }
-
-        .card-head {
-            padding-left: 10px;
-            text-align: center;
-            font-size: 1.1rem;
-        }
-
-        .card-para {
-            padding-left: 20px;
-            font-size: 0.9rem;
-            width: 180px;
-            text-align: center;
-        }
+    .logo {
+        width: 200px;
     }
 
-
-    @media (max-width:768px) {
-
-        .items {
-            display: grid;
-            line-height: 35px;
-            font-size: 0.8rem;
-        }
-
-        .logo {
-            display: block;
-            width: 250px;
-            margin: 10px;
-            border: none;
-            line-height: 50px;
-        }
-
-        .Search {
-            display: none;
-        }
-
-        .search-2 {
-            display: none;
-        }
-
-        .head {
-            display: none;
-        }
-
-        .border-none {
-            border: none;
-        }
-
-        .button {
-            height: 75px;
-            padding: 0 25px;
-            color: #fff;
-            font-size: 14px;
-            background-color: #701e7d;
-            text-align: center;
-        }
-
-        .text-yellow {
-            display: none;
-        }
-
-        .card-image {
-            margin-left: 20px;
-            width: 100px;
-            height: 100px;
-        }
-
-        .card-head {
-            padding-left: 5px;
-            text-align: center;
-            font-size: 1rem;
-        }
-
-        .card-para {
-            padding-left: 10px;
-            font-size: 0.8rem;
-            width: 160px;
-            text-align: center;
-        }
-
-        .parent-4{
-            display: block;
-            justify-content: center;
-            align-items: center;
-            margin-left: 300px;
-            padding: 20px;
-        }
-
-        .child-4-1{
-            display: block;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .parent-5{
-            display: block;
-            justify-content: center;
-            align-items: center;
-            height: auto;
-            border: none;
-        }
-
-        .parent-5 a{
-            display: block;
-            text-align: center;
-            padding: 20px;
-            border: none;
-        }
-
+    .button {
+        font-size: 0.8rem;
     }
 
-    @media (max-width:640px) {
-        
-        .child-1{
-            display: none;
-        }
+    .search-2 {
+        margin-bottom: 30px;
+    }
 
-        .items {
-            display: none;
-        }
+    .section-2 {
+        padding: 20px;
+        text-align: center;
+    }
 
-        .head-2 {
-            display: none;
-        }
+    .container-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-        .logo {
-            width: 300px;
-            height: auto;
-            margin: 0 auto;
-            display: block;
-        }
+    .parent-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-        .button {
-            font-size: 0.7rem;
-            height: 50px;
-            padding: 0 15px;
-        }
+    .child-2-1 {
+        margin-bottom: 20px;
+        flex: 1;
+        max-width: 45%;
+    }
 
-        .search-2 {
-            margin-bottom: 20px;
-        }
+    .sec-2-img {
+        width: 100%;
+        height: auto;
+    }
 
-        .section-2 {
-            display: block;
-            text-align: center;
-            height: auto;
-            min-height: 600px;
-        }
+    .sec-2-span {
+        white-space: nowrap;
+    }
 
-        .container-2 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+    .card-image {
+        width: 120px;
+        height: 120px;
+    }
 
-        .parent-2 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+    .card-head {
+        padding-left: 10px;
+        text-align: center;
+        font-size: 1.1rem;
+    }
 
-        .child-2-1 {
-            margin-bottom: 15px;
-            width: 100%;
-            text-align: center;
-        }
+    .card-para {
+        padding-left: 20px;
+        font-size: 0.9rem;
+        width: 180px;
+        text-align: center;
+    }
+}
 
-        .sec-2-img {
-            width: 80px;
-            height: 150px;
-        }
+@media (max-width:768px) {
 
-        .sec-2-span {
-            white-space: nowrap;
-        }
+    .items {
+        display: grid;
+        line-height: 35px;
+        font-size: 0.8rem;
+    }
 
-        .card-image {
-            width: 80px;
-            height: 80px;
-        }
+    .logo {
+        display: block;
+        width: 250px;
+        margin: 10px;
+        border: none;
+        line-height: 50px;
+    }
 
-        .card-head {
-            font-size: 0.9rem;
-            text-align: center;
-        }
+    .Search {
+        display: none;
+    }
 
-        .card-para {
-            font-size: 0.7rem;
-            width: 140px;
-            text-align: center;
-        }
+    .search-2 {
+        display: none;
+    }
 
-        .btn {
-            font-size: 0.7rem;
-        }
+    .head {
+        display: none;
+    }
 
-        .menu {
-            display: inline-block;
-            font-size: 2.6rem;
-            margin: 60px;
-        }
+    .border-none {
+        border: none;
+    }
 
-        .search {
-            gap: 20px;
-        }
+    .button {
+        height: 75px;
+        padding: 0 25px;
+        color: #fff;
+        font-size: 14px;
+        background-color: #701e7d;
+        text-align: center;
+    }
 
-        .navbar {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-        }
+    .text-yellow {
+        display: none;
+    }
 
-        .navbar .nav-item {
-            margin: 5px 0;
-            width: 100%;
-            text-align: center;
-        }
+    .card-image {
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+    }
 
-        .navbar .nav-link {
-            font-size: 0.8rem;
-            padding: 10px;
-        }
-    
-        .search {
-            gap: 10px;
-        }
+    .card-head {
+        padding-left: 5px;
+        text-align: center;
+        font-size: 1rem;
+    }
 
-        .logo {
-            width: 150px;
-            height: auto;
-            margin: 0 auto;
-            display: block;
-        }
+    .card-para {
+        padding-left: 10px;
+        font-size: 0.8rem;
+        width: 160px;
+        text-align: center;
+    }
 
-        .button {
-            font-size: 0.7rem;
-            height: 40px;
-            padding: 0 10px;
-        }
+    .parent-4{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 300px;
+        padding: 20px;
+    }
 
-        .search-2 {
-            margin-bottom: 10px;
-        }
+    .child-4-1{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
 
-        .section-2 {
-            display: block;
-            padding: 10px;
-            text-align: center;
-            height: auto;
-            min-height: 400px;
-        }
+    .parent-5{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        border: none;
+    }
 
-        .container-2 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .parent-2 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .child-2-1 {
-            margin-bottom: 10px;
-            width: 100%;
-            text-align: center;
-        }
-
-        .sec-2-img {
-            width: 60px;
-            height: 60px;
-        }
-
-        .sec-2-span {
-            white-space: nowrap;
-        }
-
-        .card-image {
-            width: 60px;
-            height: 60px;
-        }
-
-        .card-head {
-            font-size: 0.8rem;
-            text-align: center;
-        }
-
-        .card-para {
-            font-size: 0.6rem;
-            width: 120px;
-            text-align: center;
-        }
-
-        .btn {
-            font-size: 0.6rem;
-        }
-
-        .sec-4 .parent-4 {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .sec-4 .child-4-1 {
-            margin-bottom: 10px;
-        }
-
-        .sec-5 {
-            display: block;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .sec-5 .parent-5 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .sec-5 .child-5-1,
-        .sec-5 .child-5-2 {
-            margin-bottom: 10px;
-            text-align: center;
-        }
-
-        .navbar {
-            position: relative;
-            z-index: 10;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-        }
-
-        .navbar .nav-item {
-            margin: 5px 0;
-            width: 100%;
-            text-align: center;
-        }
-
-        .navbar .nav-link {
-            font-size: 0.8rem;
-            padding: 10px;
-        }
-
-        .navbar .logo {
-            width: 150px;
-            height: auto;
-            margin: 0 auto 10px;
-        }
-
-        .navbar .button {
-            font-size: 0.7rem;
-            height: 40px;
-            padding: 0 10px;
-            margin: 10px 0;
-        }
+    .parent-5 a{
+        display: block;
+        text-align: center;
+        padding: 20px;
+        border: none;
+    }
 
 }
+
+@media (max-width:640px) {
     
+    .child-1{
+        display: none;
+    }
+
+    .items {
+        display: none;
+    }
+
+    .head-2 {
+        display: none;
+    }
+
+    .logo {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .button {
+        font-size: 0.7rem;
+        height: 50px;
+        padding: 0 15px;
+    }
+
+    .search-2 {
+        margin-bottom: 20px;
+    }
+
+    .section-2 {
+        display: block;
+        text-align: center;
+        height: auto;
+        min-height: 600px;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .parent-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .child-2-1 {
+        margin-bottom: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-2-img {
+        width: 80px;
+        height: 150px;
+    }
+
+    .sec-2-span {
+        white-space: nowrap;
+    }
+
+    .card-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-head {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .card-para {
+        font-size: 0.7rem;
+        width: 140px;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 0.7rem;
+    }
+
+    .menu {
+        display: inline-block;
+        font-size: 2.6rem;
+        margin: 60px;
+    }
+
+    .search {
+        gap: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .navbar .nav-item {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .nav-link {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .search {
+        gap: 10px;
+    }
+
+    .logo {
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .button {
+        font-size: 0.7rem;
+        height: 40px;
+        padding: 0 10px;
+    }
+
+    .search-2 {
+        margin-bottom: 10px;
+    }
+
+    .section-2 {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        height: auto;
+        min-height: 400px;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .parent-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .child-2-1 {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sec-2-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .sec-2-span {
+        white-space: nowrap;
+    }
+
+    .card-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card-head {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .card-para {
+        font-size: 0.6rem;
+        width: 120px;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 0.6rem;
+    }
+
+    .sec-4 .parent-4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-4 .child-4-1 {
+        margin-bottom: 10px;
+    }
+
+    .sec-5 {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .sec-5 .parent-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec-5 .child-5-1,
+    .sec-5 .child-5-2 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .navbar .nav-item {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .nav-link {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .navbar .logo {
+        width: 150px;
+        height: auto;
+        margin: 0 auto 10px;
+    }
+
+    .navbar .button {
+        font-size: 0.7rem;
+        height: 40px;
+        padding: 0 10px;
+        margin: 10px 0;
+    }
+
+}
